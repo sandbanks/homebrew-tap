@@ -1,14 +1,14 @@
 class AgenticSsh < Formula
   desc "MCP server for detached background operations and secure SSH execution"
   homepage "https://github.com/sandbanks/agentic_ssh"
-  url "https://github.com/sandbanks/agentic_ssh/archive/refs/tags/v0.3.4.tar.gz"
-  sha256 "2ace9308bc2fbed5f8a546cb942bfbbc2b7d6680914789bc638f52239dc95b1c"
+  url "https://github.com/sandbanks/agentic_ssh/archive/refs/tags/v0.3.5.tar.gz"
+  sha256 "daaee2bd73974397f622f036d72abf87b2c12827e341da27491295a282c5b79a"
   license "MIT"
 
   bottle do
-    root_url "https://github.com/sandbanks/agentic_ssh/releases/download/v0.3.4"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "c1316ebd6c81eb499cdf6caad9392a15659ad76afb4a8517cfcb769f3285f9a6"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "db08d91cc1e380c9e5db2dec6f321aba7a711395cf543460edfcc19e992f94cf"
+    root_url "https://github.com/sandbanks/agentic_ssh/releases/download/v0.3.5"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "3a27cfec0fe64138e745e174dd13a3a9037e83b0b6f4785452818e5b6875b014"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "d5ca08d668d76177600515e54f3edc5c0c16b3c321872793de6f04d64fcca874"
   end
 
   depends_on "rust" => :build
